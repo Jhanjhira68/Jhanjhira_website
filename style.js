@@ -3,22 +3,6 @@ window.addEventListener('load', function () {
 });
 ///
 
-window.addEventListener('load', function () {
-  Swal.fire({
-    title: 'ยินดีต้อนรับ!',
-    text: 'ยินดีต้อนรับสู่เว็บไซต์ของเรา 😊',
-    icon: 'success',
-    timer: 3000,
-    timerProgressBar: true,
-    showConfirmButton: false,
-    allowOutsideClick: false,
-    allowEscapeKey: false,
-    allowEnterKey: false
-  });
-});
-
-
-///
 window.addEventListener('scroll', function () {
   const navbar = document.querySelector('.navbar');
   if (window.scrollY > 50) {
@@ -30,6 +14,6 @@ window.addEventListener('scroll', function () {
   }
 });
 ////
-document.addEventListener('contextmenu', function (e) {
-  e.preventDefault();
-});
+
+
+
