@@ -52,6 +52,18 @@ body.loaded {
 .hr-css {
   background-color: rgb(45, 118, 255);
   height: 5px;
-   position: relative;
+  position: relative;
   top: 5px;
+}
+
+.navbar {
+  transition: background-color 0.3s ease;
+}
+
+.navbar.transparent {
+  background-color: transparent;
+}
+
+.navbar.scrolled {
+  background-color: #0042bd !important;
 }
